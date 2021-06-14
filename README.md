@@ -3,7 +3,10 @@
 ## 👨‍💻 스터디원 👩‍💻
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/><br /><sub><b>김진홍(kjh)</b></sub></a><br/>node.js</td>
+    <td align="center"><a href="https://github.com/Taek-min"><img src="https://avatars.githubusercontent.com/u/79956027?v=4" width="100px;" alt=""/><br /><sub><b>김수진(ksj)</b></sub></a><br/>node.js</td>
+    <td align="center"><a href="https://github.com/LeeSeunghyeon-1"><img src="https://avatars.githubusercontent.com/u/72328552?v=4" width="100px;" alt=""/><br /><sub><b>이승현(lsh)</b></sub></a><br/>node.js</td>
+    <td align="center"><a href="https://github.com/Taek-min"><img src="https://avatars.githubusercontent.com/u/79956027?v=4" width="100px;" alt=""/><br /><sub><b>정택민(jtm)</b></sub></a><br/>node.js</td>
+    <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars.githubusercontent.com/u/39151865?v=4" width="100px;" alt=""/><br /><sub><b>정형일(jhi)</b></sub></a><br/>node.js</td>
   </tr>
 </table>
 
@@ -25,7 +28,6 @@
 * [백준](https://www.acmicpc.net) - 기본 알고리즘 문제 사이트
   * 기본 답안 : bj0000_hgd
   * 피드백 반영 답안 : bj0000_hgd_fb
-  * 모범 답안 : bj0000_rank
 
 </details>
 <details>
