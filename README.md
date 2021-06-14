@@ -3,7 +3,7 @@
 ## 👨‍💻 스터디원 👩‍💻
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Taek-min"><img src="https://avatars.githubusercontent.com/u/79956027?v=4" width="100px;" alt=""/><br /><sub><b>김수진(ksj)</b></sub></a><br/>node.js</td>
+    <td align="center"><a href="https://github.com/pocachp"><img src="https://avatars.githubusercontent.com/u/72328788?v=4" width="100px;" alt=""/><br /><sub><b>김수진(ksj)</b></sub></a><br/>node.js</td>
     <td align="center"><a href="https://github.com/LeeSeunghyeon-1"><img src="https://avatars.githubusercontent.com/u/72328552?v=4" width="100px;" alt=""/><br /><sub><b>이승현(lsh)</b></sub></a><br/>node.js</td>
     <td align="center"><a href="https://github.com/Taek-min"><img src="https://avatars.githubusercontent.com/u/79956027?v=4" width="100px;" alt=""/><br /><sub><b>정택민(jtm)</b></sub></a><br/>node.js</td>
     <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars.githubusercontent.com/u/39151865?v=4" width="100px;" alt=""/><br /><sub><b>정형일(jhi)</b></sub></a><br/>node.js</td>
