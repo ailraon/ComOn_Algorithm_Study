@@ -3,15 +3,15 @@
 ## 👨‍💻 스터디원 👩‍💻
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/><br /><sub><b>김진홍(kjh)</b></sub></a></td>
+    <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/><br /><sub><b>김진홍(kjh)</b><br/>node.js</sub></a></td>
   </tr>
 </table>
 
 ## 📋 스터디 방법 📋
 ### 📌 매일
-1. 한 문제를 푼 뒤 코드를 업로드하고 README에 코드 링크를 연결한다.
+1. 정해진 문제를 푼 뒤 코드를 업로드하고 README에 코드 링크를 연결한다.
 2. 다른 스터디원의 어제 코드에 주석(////)을 달아 피드백 해준다.
-3. 그저께 코드에 달린 피드백을 반영하여 피드백 반영 답안에 링크를 연결한다.
+3. 그저께 자신의 코드에 달린 피드백을 반영하여 피드백 반영 답안에 링크를 연결한다.
 4. 내일 풀 문제를 정한다.
 
 ### 📌 매주
