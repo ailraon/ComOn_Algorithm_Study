@@ -3,7 +3,7 @@
 ## 👨‍💻 스터디원 👩‍💻
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/><br /><sub><b>김진홍(kjh)</b><br/>node.js</sub></a></td>
+    <td align="center"><a href="https://github.com/deepredk"><img src="https://avatars2.githubusercontent.com/u/33937365?s=460&v=4" width="100px;" alt=""/><br /><b>김진홍(kjh)</b></a></td>
   </tr>
 </table>
 
