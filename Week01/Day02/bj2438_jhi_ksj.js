@@ -13,13 +13,14 @@ const input = (() => {
 let number = parseInt(input());
 
 // 2438 번 문제
+/*
 for(let i = 0; i < number; i++) {
     let msg = "";
     for(let j = 0; j <= i; j++) {
         msg += '*';
     }
     console.log(msg);
-}
+}*/
 
 /* 2439 번 문제
 for(let i = 0; i < number; i++) {
@@ -32,3 +33,15 @@ for(let i = 0; i < number; i++) {
     }
     console.log(msg);
 }*/
+
+// 2442 번 문제
+for(let i = 0; i < number; i++) {
+    let msg = "";
+    for(let j = 0; j < number - i - 1; j++) {
+        msg += " ";
+    }
+    for(let j = 0; j < i*2+1; j++) {
+        msg += "*";
+    }
+    console.log(msg);
+}
