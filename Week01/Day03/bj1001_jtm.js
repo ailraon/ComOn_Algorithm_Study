@@ -18,3 +18,5 @@ const b = parseInt(numbers[1]);
 
 // 더해서 반환
 console.log(a - b);
+
+//// 처음 예제를 잘 활용한 것 같습니다!
