@@ -13,16 +13,22 @@ const input = (() => {
 let number = parseInt(input());
 
 // 2438 번 문제
-/*
 for(let i = 0; i < number; i++) {
+    //// 문자열 + 연산 이용한거 참신하네요
+    //// "*".repeat(i)를 이용했으면 더 깔끔했을 것 같아요
     let msg = "";
     for(let j = 0; j <= i; j++) {
         msg += '*';
     }
     console.log(msg);
-}*/
+}
 
-/* 2439 번 문제
+
+
+
+
+
+// 2439 번 문제
 for(let i = 0; i < number; i++) {
     let msg = "";
     for(let j = 0; j < number - i - 1; j++) {
@@ -32,7 +38,7 @@ for(let i = 0; i < number; i++) {
         msg += "*";
     }
     console.log(msg);
-}*/
+}
 
 // 2442 번 문제
 for(let i = 0; i < number; i++) {
