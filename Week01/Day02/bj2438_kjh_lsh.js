@@ -11,6 +11,9 @@ const input = (() => {
 //// 별찍기를 제가 생각한 것보다 훨씬 더 간단하게 구현하는 방법을 알 수 있었어요
 //// process.stdout.write가 무엇인지 알게 됐습니다.
 
+//// process.stdout.write()라는 좋은게 있는지 오늘 알았네요.
+//// 깔끔한 for문 활용이 좋은것 같습니다.
+
 let num = parseInt(input());
 
 for (let i=1; i<=num; i++) {
