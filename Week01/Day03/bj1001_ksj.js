@@ -14,3 +14,5 @@ const number = input().split(" ");
 
 const result = parseInt(number[0]) - parseInt(number[1]);
 console.log(result);
+
+//// 15번줄 parseInt로 할수도 있구나라는 생각을 했습니다.

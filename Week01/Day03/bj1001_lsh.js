@@ -14,3 +14,5 @@ const a = parseInt(numbers[0]);
 const b = parseInt(numbers[1]);
 
 console.log(a - b);
+
+//// 잘한거 같습니다.

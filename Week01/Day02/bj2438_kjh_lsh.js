@@ -13,6 +13,7 @@ const input = (() => {
 
 //// process.stdout.write()라는 좋은게 있는지 오늘 알았네요.
 //// 깔끔한 for문 활용이 좋은것 같습니다.
+//// process.stdout.write()에 대해 공부해볼수 있었습니다.
 
 let num = parseInt(input());
 
