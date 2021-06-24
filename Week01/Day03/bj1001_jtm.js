@@ -2,6 +2,7 @@
 process.stdin.resume();
 process.stdin.setEncoding("utf8");
 
+//// 요런 주석은 제거해도 될거같아요
 // input() 할 때마다 한 줄이 문자열로 입력받아짐
 const fs = require("fs");
 const stdin = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
@@ -19,4 +20,4 @@ const b = parseInt(numbers[1]);
 // 더해서 반환
 console.log(a - b);
 
-//// 처음 예제를 잘 활용한 것 같습니다!
+//// 처음 예제를 잘 활용한 것 같습니다! :22
