@@ -17,3 +17,5 @@ if(parseInt(len)%5 > 0) {
     time++;
 }
 console.log(time);
+
+//// 변수를 시간과 거리를 나눠 구현한 점이 신박했습니다.

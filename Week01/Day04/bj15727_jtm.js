@@ -15,3 +15,5 @@ if(dist % 5 == 0){
 else{
     console.log(parseInt(dist / 5) + 1);
 }
+
+//// 변수명 distance을 dist로 표현하신 거 같은데 조금 더 줄여진 표현이 깔끔해 보이고 좋아요.
