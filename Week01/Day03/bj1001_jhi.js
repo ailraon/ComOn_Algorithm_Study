@@ -1,3 +1,4 @@
+//// 백준에서 한글을 입력받아야 하는 일이 없어서 이 코드는 없애도 될것 같습니다
 // 한글 입력 잘 받게 하는 코드
 process.stdin.resume();
 process.stdin.setEncoding("utf8");
