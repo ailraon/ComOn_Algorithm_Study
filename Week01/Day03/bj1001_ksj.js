@@ -18,4 +18,4 @@ const result = parseInt(number[0]) - parseInt(number[1]);
 console.log(result);
 
 //// 15번줄 parseInt로 할수도 있구나라는 생각을 했습니다.
-//// 변수명도 알맞게 지었고, 처음 예제를 잘 활용한 것 같습니다! :22
+//// 변수명도 알맞게 지었고, 처음 예제를 잘 활용한 것 같습니다! :22 :33
