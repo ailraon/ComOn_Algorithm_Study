@@ -19,3 +19,4 @@ const numbers = input().split(" ");
 console.log(parseInt(numbers[0] - numbers[1]));
 
 //// 15번줄 parstInt로 구현한 점이 신선했습니다. :22
+//// 처음 예제를 활용해서 더 단순하게 구현한 점이 인상적이었습니다.
