@@ -10,7 +10,6 @@ const sub = parseInt(input());
 
 let h = parseInt(time[0]);
 let min = parseInt(time[1]);
-
 min += sub;
 
 while (min >= 60) {
