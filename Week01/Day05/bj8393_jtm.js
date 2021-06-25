@@ -5,6 +5,8 @@ const input = (() => {
   return () => stdin[line++];
 })();
 ////읽기 쉬워서 좋았습니다.
+//// 이해하기 쉽습니다.
+
 let n = input();
 let sum = 0;
 for (i = 1; i <= n; i++) {
