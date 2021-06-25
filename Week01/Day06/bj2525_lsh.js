@@ -6,11 +6,11 @@ const input = (() => {
 })();
 
 const time = input().split(" ");
-const sub = parseInt(input());
+const sum = parseInt(input());
 
 let h = parseInt(time[0]);
 let min = parseInt(time[1]);
-min += sub;
+min += sum;
 
 while (min >= 60) {
   min -= 60;
