@@ -7,5 +7,5 @@ const input = (() => {
 
 const len = input();
 const time = parseInt(Math.ceil(len / 5));
-//// Math.ceil()함수의 기능에 대해 알게됐고 그런 함수를 사용한 점이 멋있었습니다. :22 :333 
+//// Math.ceil()함수의 기능에 대해 알게됐고 그런 함수를 사용한 점이 멋있었습니다. :22 :333 :444
 console.log(time);
