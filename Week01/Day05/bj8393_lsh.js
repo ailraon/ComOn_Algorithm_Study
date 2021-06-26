@@ -12,3 +12,5 @@ for (let i = 1; i <= num; i++) {
 }
 
 console.log(sum);
+
+//// 이해하기 쉽습니다.
