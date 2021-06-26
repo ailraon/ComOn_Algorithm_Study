@@ -23,3 +23,4 @@ while (h >= 24) {
 }
 
 console.log(h + " " + min);
+//// 잘한거 같습니다.

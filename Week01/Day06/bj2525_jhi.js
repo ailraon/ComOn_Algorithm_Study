@@ -17,4 +17,6 @@ if(time.minute >= 60) {
     time.minute = time.minute%60;
 }
 
+////완벽한거같아요 한수 배워갑니다.
+
 console.log(time.hour + " " + time.minute);
