@@ -8,7 +8,7 @@ const input = (() => {
 const time = input().split(" ");
 const sum = parseInt(input());
 
-//// 의미를 명확하게 하기위해 hour 정도로 지었으면 더 좋았을 것 같아요.
+//// 의미를 명확하게 하기위해 hour 정도로 지었으면 더 좋았을 것 같아요. :22
 let h = parseInt(time[0]);
 let min = parseInt(time[1]);
 

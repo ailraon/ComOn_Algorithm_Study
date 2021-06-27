@@ -7,7 +7,7 @@ const input = (() => {
 
 const now = input().split(" ");
 
-//// 객체 활용 좋네요!
+//// 객체 활용 좋네요! :22
 let time = {
     hour : parseInt(now[0]),
     minute : parseInt(now[1]) + parseInt(input())
