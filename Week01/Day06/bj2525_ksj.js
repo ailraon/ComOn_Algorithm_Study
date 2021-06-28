@@ -10,7 +10,7 @@ let cookTime = input();
 
 let currentHour = currentTime[0];
 let currentMinute= currentTime[1];
-////넘버 함수 사용법에 대해 알게되었습니다. => 함수가 아닌 객체입니다!
+////넘버 함수 사용법에 대해 알게되었습니다. => 함수가 아닌 객체입니다! :22 저도 알아갑니다!
 let resultHour = Number(currentHour);
 let resultMinute = Number(currentMinute) + Number(cookTime);
 
