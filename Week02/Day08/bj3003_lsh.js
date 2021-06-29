@@ -18,4 +18,4 @@ let phone = 8 - parseInt(chess[5]);
 console.log(
   king + " " + queen + " " + look + " " + bishop + " " + night + " " + phone
 );
-//// 이렇게 변수를 주르륵 작성하여 푸는 것도 좋지만, 배열을 이용하는 것도 좋을 것 같습니다.
+//// 이렇게 변수를 주르륵 작성하여 푸는 것도 좋지만, 배열을 이용하는 것도 좋을 것 같습니다. :22

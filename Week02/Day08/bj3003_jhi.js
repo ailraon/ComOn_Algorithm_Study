@@ -34,3 +34,5 @@ console.log((needChess.king - findChess.king) + " " +
             (needChess.pawn - findChess.pawn));
 
 // 객체를 활용해서 풀어봤습니다.
+
+//// 객체를 활용하는 방법도 좋지만 조금 더 단순하게 표현할 수 있을 거 같습니다.
