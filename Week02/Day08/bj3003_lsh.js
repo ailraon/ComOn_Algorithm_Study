@@ -7,6 +7,7 @@ const input = (() => {
 
 const chess = input().split(" ");
 
+//// 배열과 for문을 이용하여 반복되는 코드를 줄이면 더 깔끔한 코드가 될 것 같습니다. (bj3003_kjh.js 참고)
 let king = 1 - parseInt(chess[0]);
 let queen = 1 - parseInt(chess[1]);
 let look = 2 - parseInt(chess[2]);

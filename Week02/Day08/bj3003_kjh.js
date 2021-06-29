@@ -16,5 +16,3 @@ for (let i = 0; i < 6; i++) {
 }
 
 console.log(result.join(" "));
-
-// for문을 이용하여 반복되는 코드를 줄이면 더 깔끔한 코드가 될 것 같습니다. (bj3003_kjh.js 참고)
