@@ -12,8 +12,10 @@ for(let i = 0; i < 6; i++){
     result[i] = (Number(fixedPiece[i]) - Number(chessPiece[i]));
 }
 
-
+//// 너무 띄우지 말아주새오
 
 for(let i = 0; i < 6; i++){
-console.log(result.join(" "))
+console.log(result.join(" ")); //// 앞에 탭 해주새오
 }
+
+//// 배열과 for문을 사용해서 코드가 훨씬 깔끔해졌네요! 멋집니다👍
