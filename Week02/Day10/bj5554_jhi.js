@@ -18,3 +18,5 @@ let time = {
 
 console.log(time.minute);
 console.log(time.second);
+
+//// 깔끔합니다.

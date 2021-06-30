@@ -15,3 +15,5 @@ for(let i = 0; i < 4; i++){
 
 console.log(parseInt(sum / 60));
 console.log(parseInt(sum % 60));
+
+//// 깔끔합니다.
