@@ -5,13 +5,12 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-let time = 0;
-let sum = 0;
+let chess = input().split(" ");
+let pieces = [1, 1, 2, 2, 2, 8];
 
-for (let i = 0; i < 4; i++) {
-  time = parseInt(input());
-  sum += time;
+let result = [6];
+for (let i = 0; i < 6; i++) {
+  result[i] = pieces[i] - chess[i];
 }
 
-console.log(parseInt(sum / 60));
-console.log(parseInt(sum % 60));
+console.log(result.join(" "));

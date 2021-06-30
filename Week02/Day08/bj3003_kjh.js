@@ -14,5 +14,7 @@ let result = [];
 for (let i = 0; i < 6; i++) {
   result.push(requiredEachPieces[i] - eachPieces[i]);
 }
+////push 메서드에 대해 알게 되었습니다.
 
 console.log(result.join(" "));
+////join 함수에 대해 알게 되었습니다. 신기하네요 !
