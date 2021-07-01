@@ -7,13 +7,13 @@ const input = (() => {
 
 let totalSecond = 0;
 
-for(let i = 0; i < 4; i++) {
-    totalSecond += parseInt(input());
+for (let i = 0; i < 4; i++) {
+  totalSecond += parseInt(input());
 }
 
 let time = {
-    minute : parseInt(totalSecond / 60),
-    second : totalSecond % 60
+  minute: parseInt(totalSecond / 60),
+  second: totalSecond % 60,
 };
 
 console.log(time.minute);
