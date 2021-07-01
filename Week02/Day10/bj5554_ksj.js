@@ -10,6 +10,8 @@ let schoolToPC = parseInt(input());
 let PCToacademy = parseInt(input());
 let academyTohome = parseInt(input());
 
+//// 지금도 너무 좋지만 반복문을 사용하시면 더 좋을 것 같습니다.
+
 let sum = homeToschool + schoolToPC + PCToacademy + academyTohome;
 
 let min = parseInt(sum / 60);
