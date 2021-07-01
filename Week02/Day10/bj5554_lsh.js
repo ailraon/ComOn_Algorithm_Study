@@ -16,8 +16,5 @@ for (let i = 0; i < 4; i++) {
 console.log(parseInt(sum / 60));
 console.log(parseInt(sum % 60));
 
-<<<<<<< HEAD
 //// 깔끔합니다. :22 :33
-=======
 //// 깔끔합니다.
->>>>>>> 8428ca43f38f64b7f00f9f465e5283f997fd0253
