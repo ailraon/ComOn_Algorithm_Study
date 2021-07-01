@@ -19,4 +19,4 @@ let time = {
 console.log(time.minute);
 console.log(time.second);
 
-//// 깔끔합니다. :22
+//// 깔끔합니다. :22 :33
