@@ -13,3 +13,4 @@ let two = (prize - ((prize*0.2)*0.22));
 console.log(one + ' ' + two);
 
 //// 깔끔합니다
+//// 보기 편하네요
