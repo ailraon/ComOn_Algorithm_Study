@@ -8,3 +8,5 @@ const input = (() => {
 const tax = parseInt(input());
 
 console.log(tax * 0.78 + " " + tax * 0.956);
+
+//// 깔끔합니다
