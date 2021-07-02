@@ -5,10 +5,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-<<<<<<< HEAD
 //// 신경 쓴 변수명 굳굳 : 22
-=======
->>>>>>> 8428ca43f38f64b7f00f9f465e5283f997fd0253
 let homeToschool = parseInt(input());
 let schoolToPC = parseInt(input());
 let PCToacademy = parseInt(input());
