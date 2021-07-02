@@ -5,9 +5,5 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-let reward = input();
-let result = (reward-reward*0.22) + ' ' + (reward-reward*0.2*0.22);
-console.log(result);
-
-//// 깔끔합니다
-//// 잘했네요 : 22
+let square = parseInt(input());
+console.log(square*4);
