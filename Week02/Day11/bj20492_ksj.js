@@ -12,3 +12,4 @@ let second = tax * 0.8 + ((tax*0.2*(1-0.22)));
 
 //// 팁: 템플릿 리터럴을 사용하면 console.log(`${first}} ${second}`); 요렇게 쓸 수도 있습니다
 console.log(first + ' ' + second);
+//// 잘했습니다!
