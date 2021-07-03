@@ -9,3 +9,5 @@ let side = parseInt(input());
 let result = side * 4;
 
 console.log(result);
+
+//// 깔끔~
