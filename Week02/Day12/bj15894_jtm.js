@@ -7,3 +7,5 @@ const input = (() => {
 
 let square = parseInt(input());
 console.log(square*4);
+
+////잘했습니다

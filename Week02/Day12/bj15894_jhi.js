@@ -8,3 +8,5 @@ const input = (() => {
 const num = input();
 
 console.log(Number(num * 4));
+
+////잘했습니다
