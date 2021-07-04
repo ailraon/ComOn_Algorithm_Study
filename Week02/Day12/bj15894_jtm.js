@@ -8,4 +8,4 @@ const input = (() => {
 let square = parseInt(input());
 console.log(square*4);
 
-////잘했습니다 :22
+////잘했습니다 :22 :33
