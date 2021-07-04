@@ -8,3 +8,5 @@ const input = (() => {
 const hexa = input();
 
 console.log(parseInt(hexa, 16));
+
+//// 깔끔합니다

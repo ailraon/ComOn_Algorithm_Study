@@ -7,3 +7,5 @@ const input = (() => {
 
 var number =  input();
 console.log(parseInt(number, 16));
+
+//// 깔끔합니다
