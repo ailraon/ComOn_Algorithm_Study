@@ -10,5 +10,5 @@ let result = side * 4;
 
 console.log(result);
 
-//// 깔끔~ 
+//// 깔끔~ :22
 //// 완벽합니다. :22

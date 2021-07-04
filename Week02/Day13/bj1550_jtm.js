@@ -5,7 +5,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-var number =  input();
+var number = input();
 console.log(parseInt(number, 16));
 
-//// 깔끔합니다 :22
+//// 깔끔합니다 :22 :333

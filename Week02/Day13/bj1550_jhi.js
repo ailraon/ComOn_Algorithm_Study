@@ -9,4 +9,4 @@ let hex = input();
 
 console.log(parseInt(hex, 16));
 
-//// 깔끔합니다
+//// 깔끔합니다 :22

@@ -5,8 +5,5 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const hexa = input();
-
-console.log(parseInt(hexa, 16));
-
-//// 깔끔합니다 :22 :333
+let square = parseInt(input());
+console.log(square * 4);
