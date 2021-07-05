@@ -8,4 +8,4 @@ const input = (() => {
 var number = input();
 console.log(parseInt(number, 16));
 
-//// 깔끔합니다 :22 :333
+//// 깔끔합니다 :22 :333 :4444
