@@ -7,3 +7,5 @@ const input = (() => {
 
 let num = input().split(" ");
 console.log(Math.abs(parseInt(num[0]) - parseInt(num[1])));
+
+//// 깔끔합니다

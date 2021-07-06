@@ -8,3 +8,5 @@ const input = (() => {
 let number = input().split(" ");
 
 console.log(Math.abs(number[0] - number[1]));
+
+//// 깔끔합니다
