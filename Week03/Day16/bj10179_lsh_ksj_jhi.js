@@ -11,3 +11,5 @@ for (let i = 0; i < len; i++) {
   let num = parseFloat(input());
   console.log("$" + (num * 0.8).toFixed(2));
 }
+
+//// 군더더기 하나 없이 깔끔합니다!
