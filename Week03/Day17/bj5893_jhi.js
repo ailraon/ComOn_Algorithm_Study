@@ -8,3 +8,4 @@ const input = (() => {
 let bin = "0b" + input();
 console.log((BigInt(bin)*17n).toString(2));
 
+//// 깔끔합니다. 문제 조건을 잘 파악하고 BigInt 활용도 잘해주신 것 같습니다
