@@ -15,3 +15,5 @@ if (month == 2 && day == 18) {
 } else if (month == 2 && day < 18) {
   console.log("Before");
 } else console.log("After");
+
+//// 잘했습니다
