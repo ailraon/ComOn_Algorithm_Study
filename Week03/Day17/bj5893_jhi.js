@@ -6,7 +6,7 @@ const input = (() => {
 })();
 
 let bin = "0b" + input();
-console.log((BigInt(bin)*17n).toString(2));
+console.log((BigInt(bin) * 17n).toString(2));
 
-//// 깔끔합니다. 문제 조건을 잘 파악하고 BigInt 활용도 잘해주신 것 같습니다
+//// 깔끔합니다. 문제 조건을 잘 파악하고 BigInt 활용도 잘해주신 것 같습니다 : 22
 //// BigInt에 대해서 알게 되었습니다
