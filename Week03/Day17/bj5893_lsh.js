@@ -1,4 +1,4 @@
-// 반례를 못 찾겠습니다.
+// 문제 실패 : 반례를 못 찾겠습니다.
 
 const fs = require("fs");
 const stdin = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
