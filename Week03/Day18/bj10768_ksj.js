@@ -8,6 +8,7 @@ const input = (() => {
 let month = parseInt(input());
 let day = parseInt(input());
 
+//// 31일보다 큰 day는 없습니다!
 if(month == 1 && day <= 31) {
     console.log("Before");
 }
