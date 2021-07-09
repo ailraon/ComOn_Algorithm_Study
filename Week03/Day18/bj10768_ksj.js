@@ -24,3 +24,5 @@ else if(month == 2 && day == 18){
 else {
     console.log("After");
 }
+
+// 조건에 맞춰 if문을 쓴 건 좋았지만, 조건문을 조금만 수정하면 if문이 더 적어질 것 같습니다.

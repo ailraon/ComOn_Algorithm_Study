@@ -16,4 +16,4 @@ if (month == 2 && day == 18) {
   console.log("Before");
 } else console.log("After");
 
-//// 잘했습니다 :22
+//// 잘했습니다 :22 :33
