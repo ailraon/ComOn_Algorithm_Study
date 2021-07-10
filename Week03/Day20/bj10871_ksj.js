@@ -5,9 +5,9 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-let NandX = input().split(" ");
-let N = Number(NandX[0]);
-let X = Number(NandX[1]);
+let NandX = input().split(" ").map(NandX => Number(NandX));
+let N = NandX[0];
+let X = NandX[1];
 let num = input().split(" ").map(Number);
 let arr = [];
 
