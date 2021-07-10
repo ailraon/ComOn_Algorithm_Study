@@ -20,6 +20,8 @@ if(Number(num[0]) > Number(num[1])) {
 result = (max+min) * ((max - min + 1) / 2);
 console.log(result);
 
+//// 잘했습니다.
+
 // 2 ~ 5 : 2 + 3 + 4 + 5 = 14
 // (5 + 2) * ((5 - 2 + 1) / 2) = 7 * 2
 // 2 ~ 4 : 2 + 3 + 4 = 9

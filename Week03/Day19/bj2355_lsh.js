@@ -22,3 +22,5 @@ if (A < B) {
 let n = max - min;
 
 console.log((n * (n + 1)) / 2 + min * (n + 1));
+
+//// 잘했습니다.
