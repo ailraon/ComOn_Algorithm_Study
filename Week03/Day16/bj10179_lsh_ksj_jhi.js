@@ -8,7 +8,7 @@ const input = (() => {
 let len = parseInt(input());
 
 for (let i = 0; i < len; i++) {
-  let num = parseFloat(input());
+  let num = BigInt(input());
   console.log("$" + (num * 0.8).toFixed(2));
 }
 
