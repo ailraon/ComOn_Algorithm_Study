@@ -32,3 +32,5 @@ if(count% 2 === 0){
 else {
 	console.log(result + mid);
 }
+
+//// 잘 풀었습니다.
