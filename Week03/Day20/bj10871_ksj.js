@@ -5,6 +5,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// map을 활용한 점은 좋았으나, NandX 변수에 담지 말고 [N, X] 로 한번에 입력받았으면 더 좋았을 것 같습니다.
 let NandX = input().split(" ").map(NandX => Number(NandX));
 let N = NandX[0];
 let X = NandX[1];
@@ -16,5 +17,5 @@ for(let i=0; i<N; i++){
 		arr += num[i] + " ";
 	}
 }
-console.log(arr);
 
+console.log(arr);

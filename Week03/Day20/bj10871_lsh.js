@@ -14,6 +14,6 @@ let arr;
 
 arr = input().split(" ");
 let list = arr.filter((e) => e < maxNum);
-//// filter 메소드에 대해서 알 수 있었습니다
+//// filter 메소드에 대해서 알 수 있었습니다 :22
 
 console.log(list.join(" "));
