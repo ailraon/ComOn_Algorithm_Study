@@ -16,3 +16,5 @@ for(let i = 0; i < condition[0]; i++) {
     }
 }
 console.log(result);
+
+//// 코드가 깔끔하고 잘했습니다!
