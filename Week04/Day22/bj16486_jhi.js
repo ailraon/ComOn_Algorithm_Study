@@ -11,3 +11,5 @@ const pi = 3.141592;
 let rectWidth = Number(input()) * 2;
 let radius = Number(input()) * 2 * pi;
 console.log(radius + rectWidth);
+
+//// 잘했습니다

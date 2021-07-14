@@ -10,3 +10,5 @@ let d1 = parseFloat(input()) * 2;
 let d2 = parseFloat(input()) * 3.141592;
 
 console.log(d1 + d2);
+
+//// 잘했습니다
