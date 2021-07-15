@@ -6,6 +6,7 @@ const input = (() => {
 })();
 
 let N = parseInt(input());
+//// 도미노 묶음의 개수라는 의미로 dominoBundles 등으로 짓는건 어떨까요?
 let sum = 0;
 
 for(let i=1; i<=N; i++){
@@ -13,3 +14,5 @@ for(let i=1; i<=N; i++){
 }
 
 console.log(3 * sum);
+
+//// 깔끔합니다!
