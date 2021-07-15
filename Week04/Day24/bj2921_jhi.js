@@ -15,4 +15,4 @@ for(let i = 1; i < N; i++) {
 }
 console.log(N*result);
 
-//// 깔끔합니다!
+//// 깔끔합니다! :22
