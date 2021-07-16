@@ -14,3 +14,5 @@ let M = chessBoardCutNumber - N;
 let result = (N+1) * (M+1);
 
 console.log(result);
+
+//// 짧고 간결하지만, 더 적은 변수로 해결 할 수 있을것 같습니다!
