@@ -14,3 +14,6 @@ for(let i = 0; i < N; i++) {
     i%2===0 ? widthLine++ : heightLine++;
 }
 console.log(widthLine * heightLine);
+
+//// 깔끔합니다.
+//// 지금도 좋은데 O(1)로도 풀 수 있다는거 참고 해주세요!
