@@ -18,4 +18,4 @@ for (let i = 0; i < cnt; i++) {
   console.log(`${quarter} ${dime} ${nickel} ${penny}`);
 }
 
-//// 깔끔합니다
+//// 깔끔합니다 :22
