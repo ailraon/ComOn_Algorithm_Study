@@ -18,7 +18,7 @@ for (let i = 0; i < times; i++) {
   changeMoney(change);
 }
 
-//// 함수로 분리해본 점 굳굳
+//// 함수로 분리해본 점 굳굳 :22
 //// 다만 함수는 동사로 시작하는게 좋습니다! printChange 또는 printChangeMoney로 했다면 더 좋았을 것 같아요
 function changeMoney(change) {
   let divisionQuarter = parseInt(change / Quarter);
