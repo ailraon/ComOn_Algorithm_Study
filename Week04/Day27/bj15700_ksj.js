@@ -1,5 +1,5 @@
-const fs = require("fs");
-const stdin = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
+const fs = require('fs');
+const stdin = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 const input = (() => {
   let line = 0;
   return () => stdin[line++];
@@ -7,6 +7,8 @@ const input = (() => {
 
 let [firstSide, secondSide] = input().split(' ').map(BigInt);
 let halfNum = BigInt(2);
-let result = firstSide * secondSide / halfNum;
+let result = (firstSide * secondSide) / halfNum;
 
 console.log(BigInt(result).toString());
+
+//// 깔끔합니다

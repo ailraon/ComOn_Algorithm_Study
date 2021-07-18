@@ -5,9 +5,12 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 첫 글자는 소문자로 시작하는게 관례입니다
 const [WallWidth, WallHeight] = input()
-    .split(" ")
-    .map((num) => BigInt(num));
+  .split(' ')
+  .map((num) => BigInt(num));
 
-let result = BigInt(WallHeight * WallWidth / 2n); 
+let result = BigInt((WallHeight * WallWidth) / 2n);
 console.log(result.toString());
+
+//// 깔끔합니다
