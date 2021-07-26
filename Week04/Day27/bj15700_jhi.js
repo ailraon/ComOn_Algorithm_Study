@@ -13,4 +13,4 @@ const [WallWidth, WallHeight] = input()
 let result = BigInt((WallHeight * WallWidth) / 2n);
 console.log(result.toString());
 
-//// 깔끔합니다
+//// 깔끔합니다 :22
