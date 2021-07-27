@@ -11,4 +11,4 @@ let result = (firstSide * secondSide) / halfNum;
 
 console.log(BigInt(result).toString());
 
-//// 깔끔합니다
+//// 깔끔합니다 :22
