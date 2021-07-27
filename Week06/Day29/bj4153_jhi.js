@@ -19,3 +19,4 @@ while(true) {
         console.log("wrong");
     }
 }
+//// 깔끔합니다
