@@ -12,7 +12,8 @@ for (let i = 0; i < testCase; i++) {
   let recoding = input().split(' ');
   let result = '';
   while (true) {
-    //// 울음소리니까 animals보단 cryings가 맞을듯!
+    //// 'cow goes moo'를 'animals'로 표현하는건 좀 적절하지 않은 것 같아
+    //// 동물 이름과 동물 울음소리를 나타내는 변순데 '동물들'?
     let animals = input();
     if (animals === 'what does the fox say?') break;
     animals = animals.split(' ');
