@@ -11,7 +11,7 @@ let testCase = Number(input());
 for (let i = 0; i < testCase; i++) {
   let recoding = input().split(' ');
   //// 이 result는 for 블록 안에서만 존재하고
-  //// for을 벗어나는 순간 할당해제가 돼서 없는 변수가 돼
+  //// for을 벗어나는 순간 할당해제가 돼서 없는 변수가 돼 (let은 블록 스코프)
   //// 16줄의 result와 33줄의 result는 서로 다른 변수임
   let result = '';
   while (true) {
