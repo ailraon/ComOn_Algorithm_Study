@@ -15,6 +15,7 @@ let count = 0;
 //// 18~19줄을 하는것보단 18줄의 조건문을 while 조건문으로 사용하는게 더 깔끔할 듯!
 while(true) {
     //// 코딩 컨벤션에서는 if와 ( 사이에 공백을 주는걸 권장함
+    //// 탭 크기도 4칸이 아니라 2칸으로 하는걸 권장함
     if(Number(inputNum) < 10)
         break;
     inputNum = convertToMultiples(inputNum);
