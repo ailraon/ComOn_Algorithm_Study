@@ -23,7 +23,7 @@ function makeSequence (num) {
 }
 
 function inNumber (num, sequenceNumber) {
-  for(let i = parseInt(num/2)-1; i <= num; i++) {
+  for(let i = parseInt(num / 2) - 1; i <= num; i++) {
     if(num === sequenceNumber[i]) return true;
   }
   return false;
