@@ -7,11 +7,14 @@ const input = (() => {
 
 let chatting = '어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.' + '\n';
 let recursiveNum = 0;
+//// 변수명 첫 글자는 소문자~
 let Num = Number(input());
 chatRecursive(Num, recursiveNum);
 
 console.log(chatting);
 
+//// 변수 이름을 재귀번호보단 재귀'깊이'로 하면 더 의미가 명확할듯
+//// 나같은 경우엔 현재 깊이를 depth, 입력받은 최대 깊이를 maxDepth로 이름 지었어
 function chatRecursive(Num, recursiveNum) {
     chatting += '_'.repeat(recursiveNum * 4) + '"재귀함수가 뭔가요?"' + '\n';
     if (Num === 0) {
@@ -32,3 +35,6 @@ function chatRecursive(Num, recursiveNum) {
     chatting += '_'.repeat(recursiveNum * 4) + 
         '라고 답변하였지.' + '\n';
 }
+
+//// 변수 이름도 꽤 괜찮고 로직도 거의 최적으로 잘 짠거같아
+//// 굳!
