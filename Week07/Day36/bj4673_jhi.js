@@ -43,6 +43,7 @@ function makeSequence (num) {
 }
 
 //// Javascript Array의 includes 함수로 대체 가능
+//// 자주 쓰일 것 같은건 다 기본 사양에 있으니까 따로 함수 만들기 전에 구글링 해봐!
 function inNumber (num, sequenceNumber) {
   for(let i = parseInt(num / 2) - 1; i <= num; i++) {
     if(num === sequenceNumber[i]) return true;
