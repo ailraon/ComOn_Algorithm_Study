@@ -21,6 +21,8 @@ countPaper(0, 0, paperSize, paperSize);
 result = paperWithMinus + '\n' + paperWithZero + '\n' + paperWithOne;
 console.log(result);
 
+//// 변수명 좋고 로직 좋고
+//// 재귀를 잘 이해하고 잘 활용하는듯
 
 function countPaper (startLength, startWidth, endLength, endWidth) {
     if (isEquals(startLength, startWidth, endLength, endWidth)) {
