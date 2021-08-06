@@ -12,6 +12,7 @@ const investByC = (money) => parseInt(money * 1.05);
 const investOptimally = (money, year) => {
   if (year == 0) return money;
 
+  //// 16줄 변수이름 바꿔보기 바람!
   let money1 = 0, money2 = 0, money3 = 0;
   if (year >= 1) {
     money1 = investOptimally(investByC(money), year - 1);
