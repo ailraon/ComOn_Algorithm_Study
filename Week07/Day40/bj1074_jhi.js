@@ -5,6 +5,11 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 맞은 사람 랭킹에서
+//// 아는 언어 랭킹 골라다가 다른 사람들 어떻게 풀었는지 한번씩 봐보기 바람
+
+//// 잘했음
+
 let moving = 0;
 
 let [arraySquared, goalLength, goalWidth] = input().split(' ').map((num) => parseInt(num));
@@ -21,7 +26,7 @@ console.log(moving);
 function zMoving( arrayStartLength, arrayStartWidth, arrayEndLength, arrayEndWidth ) {
   let arrayLength = parseInt((arrayEndLength + arrayStartLength) / 2);
   let arrayWidth = parseInt((arrayEndWidth + arrayStartWidth) / 2);
-  let movingPlus = arrayEndLength - arrayLength;ㄴ
+  let movingPlus = arrayEndLength - arrayLength;
   if( (arrayLength > goalLength) && (arrayWidth > goalWidth) ) { // 1사분면 (0, 0) (mid, mid) 
     if(arrayLength-arrayStartLength === 0) return;
     zMoving (arrayStartLength, arrayStartWidth, arrayLength, arrayWidth);
