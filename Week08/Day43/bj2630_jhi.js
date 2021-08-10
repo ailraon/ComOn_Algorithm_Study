@@ -7,6 +7,7 @@ const input = (() => {
 
 let paperSize = Number(input());
 
+//// []로 해도 됨. 사이즈 지정할 필요 없음
 let coloredPaper = new Array(paperSize);
 
 let whitePaper = 0;
@@ -35,6 +36,7 @@ function countPaper (widthStart, widthEnd, lengthStart, lengthEnd) {
 	return;
 }
 
+//// 함수명 작명 굳
 function isColoredPaper (widthStart, widthEnd, lengthStart, lengthEnd) {
 	for (let i = lengthStart; i < lengthEnd; i++) {
 		for (let j = widthStart; j < widthEnd; j++) {
@@ -43,3 +45,5 @@ function isColoredPaper (widthStart, widthEnd, lengthStart, lengthEnd) {
 	}
 	return true;
 }
+
+//// 전부 잘했음
