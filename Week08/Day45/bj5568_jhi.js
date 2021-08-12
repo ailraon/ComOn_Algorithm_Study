@@ -15,6 +15,7 @@ for (let i = 0; i < totalNumberOfCards; i++) {
 }
 
 //// new Array안하고 그냥 []해도 됨
+//// js에서 편하게 쓰라고 짧게도 쓸 수 있게 했는데 귀찮게 new Array 다 칠 필요 없음
 let totalNumberOfCardCombinations = new Array(0);
 getNumberOfCardCombinations(numberOfCardesToChoose, '', cards);
 console.log(totalNumberOfCardCombinations.length);
