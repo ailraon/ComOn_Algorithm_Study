@@ -14,6 +14,7 @@ for (let i = 0; i < totalNumberOfCards; i++) {
 	cards.push(input());
 }
 
+//// new Array안하고 그냥 []해도 됨
 let totalNumberOfCardCombinations = new Array(0);
 getNumberOfCardCombinations(numberOfCardesToChoose, '', cards);
 console.log(totalNumberOfCardCombinations.length);
@@ -32,3 +33,5 @@ function getNumberOfCardCombinations (numberOfCardToChoose, cardCombinations, ca
 		cards.push(cardsPop);
 	}
 }
+
+//// 이제 이 유형은 어느정도 잘 풀듯
