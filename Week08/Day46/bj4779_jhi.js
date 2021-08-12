@@ -16,9 +16,11 @@ while (j < inputCount) {
 	j++;
 }
 
+console.log(result);
+
 function cantorSet (stringLength, indexNum) {
 	if (indexNum === 1) return " ".repeat(stringLength);
-  if (stringLength === 1) return "_";
+  if (stringLength === 1) return "-";
 	let cantorSets = '';
 	for(let i = 0; i < 3; i++) {
 		cantorSets += cantorSet(stringLength / 3, i);
