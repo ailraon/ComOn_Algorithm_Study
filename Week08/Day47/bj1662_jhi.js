@@ -1,3 +1,4 @@
+//// 일요일/월요일중으로 js로 한번 풀어보겠음
 const fs = require("fs");
 const stdin = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 const input = (() => {
