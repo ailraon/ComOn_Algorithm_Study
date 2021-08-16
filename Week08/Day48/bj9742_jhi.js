@@ -15,6 +15,7 @@ while (i < inputCount) {
 }
 console.log(result);
 
+//// 함수 첫 단어는 동사
 function permutation (str, permutationNum) {
   if (str.length === 1) return str;
 
