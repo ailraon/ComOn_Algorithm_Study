@@ -10,18 +10,18 @@ let result = 0;
 oddCowOutDance(1, numberOfCows);
 console.log(result);
 
+//// https://pastebin.com/mihTUzDg
+//// 위처럼 return 잘 활용해서 else는 가급적 피하기 바람
 function oddCowOutDance (startNumber, endNumber) {
 	let difference = endNumber - startNumber;
-	if (difference > 1) {
-		let middleNumber = ((endNumber + startNumber) % 2 === 0) ? (endNumber + startNumber)  / 2 : (endNumber + startNumber - 1) / 2;
-		oddCowOutDance(startNumber, middleNumber);
-		oddCowOutDance(middleNumber + 1, endNumber);
-	} else {
-		if (difference === 0) {
-			return 0;
-		} 
-		if (difference === 1) {
-			return result += startNumber * endNumber;
-		}
+	if (difference === 0) {
+		return 0;
+	} 
+	if (difference === 1) {
+		return result += startNumber * endNumber;
 	}
+
+	let middleNumber = ((endNumber + startNumber) % 2 === 0) ? (endNumber + startNumber)  / 2 : (endNumber + startNumber - 1) / 2;
+	oddCowOutDance(startNumber, middleNumber);
+	oddCowOutDance(middleNumber + 1, endNumber);
 }
