@@ -5,7 +5,7 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
-const inputCount = stdin.length;
+let inputCount = stdin.length;
 let result = '';
 
 while (inputCount-- > 0) {
