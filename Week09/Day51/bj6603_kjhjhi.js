@@ -30,3 +30,5 @@ while ((line = input()) !== "0") {
 
   console.log(lottoCombinations.join("\n") + "\n");
 }
+
+// 굳!
