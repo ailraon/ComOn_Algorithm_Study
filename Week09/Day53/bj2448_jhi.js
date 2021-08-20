@@ -47,3 +47,5 @@ function drawEmptyTriangle (nthLine, startRow) {
         emptySpace -= 2;
     }
 }
+
+//// 깔끔함

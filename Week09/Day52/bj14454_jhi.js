@@ -5,6 +5,8 @@ const input = (() => {
   return () => stdin[line++];
 })();
 
+//// 골드는 가끔 푸는게 좋을듯
+
 let [initialString, nth] = input().split(' ');
 
 console.log(findInfiniteCodeNth(initialString, BigInt(nth) - 1n));
