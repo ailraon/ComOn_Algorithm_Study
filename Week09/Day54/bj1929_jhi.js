@@ -19,6 +19,7 @@ for(let i = startNum; i <= endNum; i++) {
 
 console.log(result);
 
+//// 함수 첫 단어는 동사
 function eratos(minPower, endNumber) {
     primeNum[1] = false;
     for (let i = 2; i < minPower; i++) {
@@ -28,6 +29,7 @@ function eratos(minPower, endNumber) {
     }
 }
 
+//// 소수는 prime number라고 부름
 function findMinPower (endNum) {
     let minPower = 2;
     while (true) {

@@ -16,6 +16,7 @@ for(let i = 0; i < testCaseNum; i++) {
 
 console.log(result);
 
+//// 잘못 접근하면 무한 실패의 늪에 빠질 수 있는 까다로운 구현 문제였는데 잘 했음
 function findPrintQueueOrder (queueIndex, documentImportant) {
   let printOrder = 1;
   while (documentImportant.length !== 0) {
