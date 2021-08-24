@@ -10,7 +10,7 @@
 
 | 문제                                                | 답안      | 피드백 반영 답안 | Pair Programming                   |
 | --------------------------------------------------- | --------- | ---------------- | ---------------------------------- |
-| [나무 자르기](https://www.acmicpc.net/problem/2805) | 진홍 형일 | 진홍 형일        | Driver 🚗 이름 & Navigator 🧭 이름 |
+| [나무 자르기](https://www.acmicpc.net/problem/2805) | [진홍](Day58/bj2805_kjhjhi.js) 형일 | 진홍 형일        | Driver 🚗 이름 & Navigator 🧭 이름 |
 
 ## [59일차](Day59)
 
