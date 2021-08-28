@@ -16,6 +16,7 @@ for (let i = 0; i < numberOfPeople; i++) {
     peopleHeight.push(height);
 }
 
+//// 요거 로직 생각해내기 그렇게 쉽지 않은데 잘 했음
 for (let i = 0; i < numberOfPeople; i++) {
     let rank = 1;
     for (let j = 0; j < numberOfPeople; j++) {

@@ -12,6 +12,7 @@ let result = findTheFactorial(N) / (findTheFactorial(K) * findTheFactorial(N - K
 
 console.log(result);
 
+//// get, calc 등의 동사가 어울렸을 듯
 function findTheFactorial (number) {
     let result = 1;
     for (let i = 2; i <= number; i++) {
@@ -19,3 +20,4 @@ function findTheFactorial (number) {
     }
     return result;
 }
+//// 깔끔~
